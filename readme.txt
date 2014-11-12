@@ -11,9 +11,9 @@ Taxonomy filter is a simple and flexible plugin which allow users to filter hier
 
 == Description ==
 
-Taxonomy filter is a simple and flexible plugin which allow users to filter hierarchical term taxonomies inside admin pages. Imagine having too many tags on your post admin page and having to lose so much time scrolling a long list of items or having to search for a tag with the classic browser search box. With "Taxonomy filter" plugin you can search, choice and select tags in a very short time, a great gain!
+Taxonomy filter is a simple and flexible plugin which allow users to filter hierarchical term taxonomies inside admin pages. If you need to simplify your tags and categories research on admin pages, this plugin will make it easier for you. It adds a custom input field (only for configured taxonomies) that you can use to filter a every taxonomy list.
 
-If you need to simplify your tags and categories research on admin pages, this plugin will make it easier for you. It adds a custom input field (only for configured taxonomies) that you can use to filter a every taxonomy list.
+Imagine having too many tags on your post admin page and having to lose so much time scrolling a long list of items or having to search for a tag with the classic browser search box. With "Taxonomy filter" plugin you can search, choice and select tags in a very short time, a great gain!
 
 In addition, you have to setup which taxonomies should have "Taxonomy filter" actived. When you install and active the plugin, an admin page is added on settings section. In this page are automatically listed all valid taxonomies, you have two options:
 
@@ -24,9 +24,9 @@ It works only with hierarchical taxonomies (both default categories and [custom 
 
 = Usage =
 
-1. Go to `WP-Admin -> Posts -> Categories`.
-2. Find the Bulk Actions dropdown.
-3. Reorganize away.
+1. Go to `WP-Admin -> Posts -> Add New`.
+2. Find the input filter field on page sidebar.
+3. Select tags filtering list.
 
 Links: [Author's Site](http://www.andrealandonio.it)
 
@@ -44,15 +44,15 @@ Yes, you have only to enable valid taxonomies on settings page for every site.
 
 == Screenshots ==
 
-1. Settings screen
-2. Filter tags (list)
-3. Filter tags (apply)
-4. Filter categories (list)
-5. Filter categories (apply)
+1. Settings admin page
+2. Filter tags (initial list, before filtering)
+3. Filter tags (filtered list)
+4. Filter categories (initial list, before filtering)
+5. Filter categories (filtered list)
 
 == Changelog ==
 
-= 1.0.0 - 2014-11-04 =
+= 1.0.0 - 2014-11-12 =
 * First release
 
 == Upgrade Notice ==
