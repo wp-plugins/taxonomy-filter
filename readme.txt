@@ -3,7 +3,7 @@ Contributors: lando1982
 Tags: usability, filter, admin, category, tag, term, taxonomy, hierarchy, organize, manage
 Requires at least: 3.7
 Tested up to: 4.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -42,6 +42,10 @@ Links: [Author's Site](http://www.andrealandonio.it)
 
 Yes, you have only to enable valid taxonomies on settings page for every site.
 
+= Works on hierarchical taxonomies? =
+
+Yes, you can filter items over taxonomies with multiple child/parent levels.
+
 == Screenshots ==
 
 1. Settings admin page
@@ -51,6 +55,9 @@ Yes, you have only to enable valid taxonomies on settings page for every site.
 5. Filter categories (filtered list)
 
 == Changelog ==
+
+= 1.0.1 - 2014-11-15 =
+* Fixed hierarchical filter search
 
 = 1.0.0 - 2014-11-12 =
 * First release
