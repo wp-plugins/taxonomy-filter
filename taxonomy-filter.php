@@ -6,7 +6,7 @@ Author: Andrea Landonio
 Author URI: http://www.andrealandonio.it
 Text Domain: taxonomy_filter
 Domain Path: /languages/
-Version: 1.0.0
+Version: 1.0.1
 License: GPL v3
 
 Taxonomy filter
@@ -151,16 +151,16 @@ function taxonomy_filter_add_boxes() {
 
                             jQuery(filter_ul_id).find("input[type='checkbox']").each(function () {
                                 // Loop over taxonomy checkboxes
-                                var filter_item = jQuery(this).parent();
-                                var filter_li = jQuery(this).parent().parent();
+                                var filter_item = jQuery(this).parent(); // checkbox label element
+                                var filter_li = jQuery(this).parent().parent(); // checkbox li element
 
                                 if (filter_item.text().toLowerCase().indexOf(filter_value.toLowerCase()) > -1) {
                                     // Show checkbox if text match with filter value
                                     filter_li.show();
                                     // Add "filter-exists" class to identify valid filtered items
                                     filter_li.addClass("filter-exists");
-                                    // Add class to parent UL if at least a valid filtered item exists
-                                    filter_li.parent("ul.children").addClass("filter-exists");
+                                    // Add class to all parent UL if at least a valid filtered item exists
+                                    filter_li.parents("ul.children").addClass("filter-exists");
                                 }
                             });
 
