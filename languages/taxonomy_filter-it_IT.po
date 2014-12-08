@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Taxonomy filter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-10-01 17:00+0100\n"
-"PO-Revision-Date: 2014-10-20 21:05+0100\n"
+"PO-Revision-Date: 2014-12-08 20:24+0100\n"
 "Last-Translator: Andrea Landonio <landonio.andrea@gmail.com>\n"
 "Language-Team: Andrea Landonio <landonio.andrea@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -21,8 +21,8 @@ msgid "Filter"
 msgstr "Filtra"
 
 #: W:\var\www\wordpress\wp-content\plugins\taxonomy-filter/taxonomy-filter.php
-msgid "Use field below to filter taxonomy"
-msgstr "Usa il campo qui sotto per filtrare la tassonomia"
+msgid "Use the above field to apply filter"
+msgstr "Usa il campo qui sopra per filtrare"
 
 #: W:\var\www\wordpress\wp-content\plugins\taxonomy-filter/taxonomy-filter-settings.php
 msgid "Taxonomy filter settings"
