@@ -26,6 +26,9 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+// Security check
+if (!defined('ABSPATH')) die("Accesso diretto al file non permesso");
+
 /***************************************************
 INCLUDES
  ***************************************************/
@@ -38,7 +41,7 @@ PLUGIN ACTIVATION
  ***************************************************/
 
 /**
- * Register hook
+ * Register activation hook
  */
 function taxonomy_filter_activation() {
     $options = taxonomy_filter_category_default_options();
@@ -80,16 +83,16 @@ function taxonomy_filter_category_default_options() {
 }
 
 /***************************************************
-PLUGIN UNINSTALL
+PLUGIN DEACTIVATION
  ***************************************************/
 
 /**
- * Remove hook
+ * Register deactivation hook
  */
-function taxonomy_filter_uninstall() {
+function taxonomy_filter_deactivation() {
     delete_option(TFP_PREFIX);
 }
-register_uninstall_hook(__FILE__, 'taxonomy_filter_uninstall');
+register_deactivation_hook(__FILE__, 'taxonomy_filter_deactivation');
 
 /***************************************************
 PLUGIN ACTIONS
