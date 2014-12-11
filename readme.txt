@@ -1,9 +1,9 @@
 === Taxonomy filter ===
 Contributors: lando1982
 Tags: usability, filter, admin, category, tag, term, taxonomy, hierarchy, organize, manage
-Requires at least: 3.7
-Tested up to: 4.0
-Stable tag: 1.0.1
+Requires at least: 3.0
+Tested up to: 4.0.1
+Stable tag: 1.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -55,6 +55,9 @@ Yes, you can filter items over taxonomies with multiple child/parent levels.
 5. Filter categories (filtered list)
 
 == Changelog ==
+
+= 1.0.2 - 2014-12-11 =
+* Increased plugin's compatibility to older WordPress versions
 
 = 1.0.1 - 2014-11-15 =
 * Fixed hierarchical filter search
