@@ -136,7 +136,7 @@ function taxonomy_filter_add_boxes() {
                         // Append filter input to taxonomy postbox
                         jQuery('<?php echo "#taxonomy-".$taxonomy->slug ?>').prepend('' +
                             '<label for="<?php echo TFP_PREFIX."_value_".$taxonomy->slug ?>"><?php _e('Filter', TFP_PREFIX);?>:</label>&nbsp;' +
-                            '<input type="text" id="<?php echo TFP_PREFIX."_value_".$taxonomy->slug ?>" name="<?php echo TFP_PREFIX."_value_".$taxonomy->slug ?>" class="<?php echo TFP_PREFIX."_value" ?>"/>&nbsp;' +
+                            '<input type="text" id="<?php echo TFP_PREFIX."_value_".$taxonomy->slug ?>" name="<?php echo TFP_PREFIX."_value_".$taxonomy->slug ?>" class="<?php echo TFP_PREFIX."_value" ?>" autocomplete="off"/>&nbsp;' +
                             '<input type="button" value="reset" id="<?php echo TFP_PREFIX."_reset_".$taxonomy->slug ?>" name="<?php echo TFP_PREFIX."_reset_".$taxonomy->slug ?>" class="bubble-float-left <?php echo TFP_PREFIX."_reset" ?>"/>' +
                             '<p class="tips"><i><?php _e('Use the above field to apply filter', TFP_PREFIX);?></i></p>'
                         );
