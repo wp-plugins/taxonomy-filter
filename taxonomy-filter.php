@@ -103,7 +103,7 @@ PLUGIN ACTIONS
  */
 function taxonomy_filter_setting_menu() {
     // Register stylesheet
-    wp_register_style('taxonomy_filter_style', plugins_url('css/tfp.css', __FILE__));
+    wp_register_style('taxonomy_filter_style', plugins_url('taxonomy-filter/css/tfp.css'));
     wp_enqueue_style('taxonomy_filter_style' );
 
     // Add option page
