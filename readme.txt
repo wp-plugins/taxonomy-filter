@@ -2,7 +2,7 @@
 Contributors: lando1982
 Tags: usability, filter, admin, category, tag, term, taxonomy, hierarchy, organize, manage
 Requires at least: 3.0
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 1.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
