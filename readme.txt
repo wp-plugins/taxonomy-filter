@@ -15,7 +15,7 @@ Taxonomy filter is a simple and flexible plugin which allow users to filter hier
 
 Imagine having too many tags on your post admin page and having to lose so much time scrolling a long list of items or having to search for a tag with the classic browser search box. With "Taxonomy filter" plugin you can search, choice and select tags in a very short time, a great gain!
 
-In addition, you have to setup which taxonomies should have "Taxonomy filter" actived. When you install and active the plugin, an admin page is added on settings section. In this page are automatically listed all valid taxonomies, you have two options:
+In addition, you have to setup which taxonomies should have "Taxonomy filter" actived. When you install and activate the plugin, an admin page is added on settings section. In this page are automatically listed all valid taxonomies, you have two options:
 
 * enable on post management pages (allow you to turn on/off filter field)
 * hide filter field if taxonomy is empty
